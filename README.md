@@ -6,7 +6,7 @@ In MR-guided radiotherapy, annotating every slice is time-consuming. A common wo
   
 This project evaluates whether MedSAM2-based slice propagation improves boundary consistency and produces smoother, more anatomically realistic segmentations compared to LI.  
   
-Pipeline:
+Pipeline:  
 Install SAM2: https://www.youtube.com/watch?v=MIUxiLjoA1g  
   
 Dataset (Prostate158): https://github.com/kbressem/prostate158  
