@@ -21,10 +21,10 @@ Apply MedSAM2 slice propagation using:
 → SAM2_propagation_V4.py  
   
 Extract sagittal and coronal views using:  
-→ Sagittal_Coronal_ConstructorV6.py  
+→ Sagittal_Coronal_ConstructorV6.py 
   
 Evaluate both methods using:  
-→ evaluationV2.py  
+→ evaluationV2.py   
   
 Generate overlay visualizations using:  
 → Overlayer_sagittal_coronalV5.py  
