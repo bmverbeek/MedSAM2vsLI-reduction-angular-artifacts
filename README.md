@@ -1,0 +1,1 @@
+# MedSAM2vsLI-reduction-angular-artifacts
