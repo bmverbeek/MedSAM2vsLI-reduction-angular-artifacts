@@ -8,11 +8,8 @@ This project evaluates whether MedSAM2-based slice propagation improves boundary
   
 Pipeline:  
 Install SAM2: https://www.youtube.com/watch?v=MIUxiLjoA1g  
-  
 Dataset (Prostate158): https://github.com/kbressem/prostate158  
-  
 MedSAM2 model: https://github.com/bowang-lab/MedSAM2/  
-  
 Convert NIfTI volumes to 2D slices using:  
 → nii_gz_converter.py  
   
