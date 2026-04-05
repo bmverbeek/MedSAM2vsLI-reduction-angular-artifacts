@@ -7,14 +7,13 @@ In MR-guided radiotherapy, annotating every slice is time-consuming. A common wo
 This project evaluates whether MedSAM2-based slice propagation can improve boundary consistency and produce smoother, more anatomically realistic segmentations compared to LI.
 
 Pipeline:
-Install SAM2 using: https://www.youtube.com/watch?v=MIUxiLjoA1g
-Obtain dataset from: https://github.com/kbressem/prostate158
-Obtain MedSAM2 model from: https://github.com/bowang-lab/MedSAM2/
-Convert NIfTI volumes to 2D slices
-Generate interpolated slices (LI)
-Apply MedSAM2 slice propagation
-Reconstruct 3D volumes
-Extract sagittal and coronal views
-Evaluate segmentation performance
-Generate overlay visualizations
+Install SAM2 using: https://www.youtube.com/watch?v=MIUxiLjoA1g  
+Obtain dataset from: https://github.com/kbressem/prostate158  
+Obtain MedSAM2 model from: https://github.com/bowang-lab/MedSAM2/  
+Convert NIfTI volumes to 2D slices using  : nii_gz_converter.py  
+Generate interpolated slices (LI) using   : linear_interpolator.py  
+Apply MedSAM2 slice propagation using     : SAM2_propagtion_V4.py  
+Extract sagittal and coronal views using  : Sagittal_coronal_constructorV6.py  
+Evaluate methods against eachother using  : evaluationV2.py  
+Generate overlay visualizations using     : overlayer_sagittal_coronalV5.py  
 
