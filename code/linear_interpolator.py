@@ -69,7 +69,7 @@ def generate_interpolated(input_dir, output_dir, alpha, mask=False, threshold_va
             interpolated = np.clip(interpolated, 0, 255).astype(np.uint8)
 
             if mask:
-                # Convert interpolated mask to binary 0-255 by tresholding generates mask union
+                # Convert interpolated mask to binary 0-255 by tresholding generates mask intersection
                 interpolated = (interpolated > 127).astype(np.uint8) * 255
 
             # --- save interpolated slice ---
